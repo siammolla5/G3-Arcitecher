@@ -1,0 +1,55 @@
+/*header style*/
+header{
+    padding: 50px 240px;
+    background-color: antiquewhite;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.G3-logo{
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+nav ul{
+    display: flex;
+}
+nav>ul>li{
+    list-style: none;
+}
+nav>ul>li>a{
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size:1rem ;
+    text-decoration: none;
+    color: black;
+}
+.banner-containt{
+    align-items: center;
+}
+.banner-img{
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    left: -120px;
+}
+.primary-button{
+    background-color: orange;
+    padding: 5px;
+    position: relative;
+    right: -350px;
+}
+.bannar-title{
+    text-align: center;
+    font-size: 40px;
+}
+.primary-button{
+    align-items: center;
+}
+.bannare-discription{
+    text-align: center;
+    width: 800px;
+}
