@@ -101,7 +101,7 @@ main{
 .images{
     height: 200px;
     width: 200px;
-    font-weight: 700px;
+    
 }
 /*responsive midiyaquari header*/
 @media screen and (max-width:576px) {
@@ -121,8 +121,18 @@ main{
         position: relative;
         right: -150px;
         top: -10px;
-        border-radius: 5px;
-        
+        border-radius: 5px;  
+    }
+    .tem-contener{
+        flex-direction: column;
+    }
+    .images{
+        height: 170px;
+        width: 170px;     
+    }
+    .tems-discription{
+        width: 300px;
+        align-items: center;
     }
 }
 @media screen and (min-width:577px) and (max-width:1060px) {
@@ -146,6 +156,12 @@ main{
         height: 500px;
         width: 100%;
         
+    }
+    .tem-contener{
+        flex-direction: column;
+    }
+    .tems-discription{
+        width: 400px;
     }
 
 }
