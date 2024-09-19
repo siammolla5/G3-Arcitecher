@@ -56,6 +56,53 @@ nav>ul>li>a{
     width: 800px;
     padding-left: 100px;
 }
+/*main setion style*/
+main{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.tem-contener{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.tem-conteiner-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.tem-conteiner-img-discription{
+    padding-left: 75px;
+    padding-right:75px ;
+
+}
+.primary-button-tow{
+    background-color: orange;
+    padding: 15px 10px;
+    border-radius: 5px; 
+    color:white;
+    cursor: pointer; 
+}
+.tems-title{
+    font-size: 45px;
+}
+.Quick-list{
+    color:rgba(122, 122, 122, 0.479);
+
+}
+.of-our{
+    color: black;
+    font-weight: 500px;
+}
+.text-Features{
+    color: orange;
+    font-weight: 400px;
+}
+.images{
+    height: 200px;
+    width: 200px;
+    font-weight: 700px;
+}
 /*responsive midiyaquari header*/
 @media screen and (max-width:576px) {
     header{
