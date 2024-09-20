@@ -55,6 +55,7 @@ nav>ul>li>a{
     text-align: center;
     width: 800px;
     padding-left: 100px;
+    color: grey;
 }
 /*main setion style*/
 main{
@@ -102,6 +103,9 @@ main{
     height: 200px;
     width: 200px;
     
+}
+.tems-discription{
+    color: gray;
 }
 /*responsive midiyaquari header*/
 @media screen and (max-width:576px) {
@@ -162,6 +166,12 @@ main{
     }
     .tems-discription{
         width: 400px;
+    }
+    .tem-contener{
+        flex-direction:column-reverse;
+    }
+    .primary-button-tow{
+        margin-bottom:10px ;
     }
 
 }
