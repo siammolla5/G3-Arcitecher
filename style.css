@@ -104,6 +104,30 @@ main{
     width: 200px;
     
 }
+/*features section*/
+.Features-container{
+    display: flex;
+    gap: 100px;
+}
+.features-img{
+    height: 600px;
+    width: 300px;
+    margin-top: 50px;
+
+}
+.div{
+    box-shadow: 10px 10px 25px rgba(20, 20, 20, 0.383);
+    padding: 5px 10px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.features-infomtion-header{
+    width: 500px;
+}
+ 
+
 /*fast container*/
 
 .tems-discription{
@@ -209,6 +233,18 @@ main{
     .G3-logo,.tems-discription{
         padding-left: 50px;
     }
+    .Features-container{
+        flex-direction: column;
+    }
+    .features-img{
+        margin-top:5px;
+    
+    }
+    .div{
+        width: 280px;
+        
+    }
+    
 }
 @media screen and (min-width:577px) and (max-width:1060px) {
     .nav-berr{
@@ -257,6 +293,9 @@ main{
     }
     .G3-logo,.tems-discription{
         padding-left: 150px;
+    }
+    .Features-container{
+        flex-direction: column;
     }
 
 }
