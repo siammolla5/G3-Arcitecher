@@ -126,6 +126,10 @@ main{
 .features-infomtion-header{
     width: 500px;
 }
+.features-paragrph{
+    color: lightgray;
+    width: 100%;
+}
  
 
 /*fast container*/
@@ -242,6 +246,7 @@ main{
     }
     .div{
         width: 280px;
+        padding: 10px;
         
     }
     
