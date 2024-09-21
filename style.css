@@ -249,6 +249,10 @@ main{
         padding: 10px;
         
     }
+    .features-paragrph{
+        
+        width: 100%;
+    }
     
 }
 @media screen and (min-width:577px) and (max-width:1060px) {
